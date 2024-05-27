@@ -1,0 +1,80 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.coluna-esquerda, .coluna-direita {
+    padding: 20px;
+    box-sizing: border-box; /* Certifique-se de incluir esta propriedade */
+}
+
+.coluna-esquerda {
+    background-color: #afd6b8ea;
+    width: 100%;
+    max-width: 300px;
+}
+
+.coluna-direita {
+    background-color: #fff;
+    flex-grow: 1; /* Use flex-grow para expandir a coluna */
+}
+
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-bottom: 40px;
+    text-align: center;
+    line-height: 150px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.foto-perfil img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.secao {
+    margin-bottom: 40px;
+}
+
+.secao h2 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.coluna-direita h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.coluna-direita h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.coluna-direita p {
+    margin-bottom: 20px;
+}
+
+@media (min-width: 768px) { /* Ajuste a largura mínima para a regra de mídia */
+    .coluna-esquerda {
+        width: 300px; /* Defina a largura da coluna esquerda */
+    }
+    .coluna-direita {
+        width: calc(100% - 300px); /* Defina a largura da coluna direita */
+    }
+}
