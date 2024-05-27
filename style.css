@@ -12,7 +12,7 @@ body {
 
 .coluna-esquerda, .coluna-direita {
     padding: 20px;
-    box-sizing: border-box; /* Certifique-se de incluir esta propriedade */
+    box-sizing: border-box; 
 }
 
 .coluna-esquerda {
@@ -23,7 +23,7 @@ body {
 
 .coluna-direita {
     background-color: #fff;
-    flex-grow: 1; /* Use flex-grow para expandir a coluna */
+    flex-grow: 1; 
 }
 
 .foto-perfil {
@@ -70,11 +70,11 @@ body {
     margin-bottom: 20px;
 }
 
-@media (min-width: 768px) { /* Ajuste a largura mínima para a regra de mídia */
+@media (min-width: 768px) { 
     .coluna-esquerda {
-        width: 300px; /* Defina a largura da coluna esquerda */
+        width: 300px; 
     }
     .coluna-direita {
-        width: calc(100% - 300px); /* Defina a largura da coluna direita */
+        width: calc(100% - 300px); 
     }
 }

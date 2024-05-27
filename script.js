@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
             role: "Artesã, Costureira"
         },
         {
-            company: "Olni Rio/Riva Tereral",
+            company: "Diniz Rio / Rua Teresa (Roupas Masculinas) ",
             period: "",
             role: "Experiência Temporária"
         },
