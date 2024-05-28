@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const experiences = [
         {
             company: "Letucce Confecções (Rua Tereza)",
-            period: "Setembro 1995 a Março 1998",
+            period: "Setembro 1993 a Março 1995",
             role: "Vendedora Balconista"
         },
         {
